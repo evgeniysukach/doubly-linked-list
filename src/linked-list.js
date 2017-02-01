@@ -2,9 +2,8 @@ const Node = require('./node');
 
 class LinkedList {
     constructor()
-    { const list = new LinkedList();
-           
-     expect(list.length).to.equal(0);
+    {           
+     this.length=0;
     }
 
     append(data)
